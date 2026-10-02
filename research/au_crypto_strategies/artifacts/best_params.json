@@ -1,0 +1,78 @@
+{
+  "asx::rsi_mr": {
+    "rsi_period": 10,
+    "rsi_low": 35,
+    "rsi_high": 70,
+    "sma_len": 100,
+    "tp_atr": 1.2,
+    "sl_atr": 2.5,
+    "max_hold": 30
+  },
+  "asx::bb_fade": {
+    "bb_period": 15,
+    "bb_std": 2.0,
+    "tp_atr": 1.2,
+    "sl_atr": 2.5,
+    "max_hold": 25
+  },
+  "asx::ema_pullback": {
+    "ema_fast": 20,
+    "ema_slow": 50,
+    "tp_atr": 1.5,
+    "sl_atr": 2.5,
+    "max_hold": 40
+  },
+  "asx::donchian_break": {
+    "donchian": 15,
+    "tp_atr": 3.0,
+    "sl_atr": 2.0,
+    "max_hold": 40
+  },
+  "asx::vol_squeeze": {
+    "bb_period": 20,
+    "bb_std": 2.0,
+    "squeeze_look": 120,
+    "mom": 10,
+    "tp_atr": 1.5,
+    "sl_atr": 2.0,
+    "max_hold": 30
+  },
+  "crypto::rsi_mr": {
+    "rsi_period": 14,
+    "rsi_low": 30,
+    "rsi_high": 65,
+    "sma_len": 100,
+    "tp_atr": 1.2,
+    "sl_atr": 1.5,
+    "max_hold": 20
+  },
+  "crypto::bb_fade": {
+    "bb_period": 20,
+    "bb_std": 2.0,
+    "tp_atr": 1.2,
+    "sl_atr": 2.5,
+    "max_hold": 15
+  },
+  "crypto::ema_pullback": {
+    "ema_fast": 10,
+    "ema_slow": 50,
+    "tp_atr": 1.0,
+    "sl_atr": 2.5,
+    "max_hold": 25
+  },
+  "crypto::donchian_break": {
+    "donchian": 20,
+    "tp_atr": 2.0,
+    "sl_atr": 2.0,
+    "max_hold": 20
+  },
+  "crypto::vol_squeeze": {
+    "bb_period": 20,
+    "bb_std": 2.0,
+    "squeeze_look": 120,
+    "mom": 5,
+    "tp_atr": 1.5,
+    "sl_atr": 2.0,
+    "max_hold": 15
+  }
+}

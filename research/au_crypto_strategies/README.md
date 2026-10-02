@@ -26,7 +26,7 @@ Outputs land in `artifacts/`:
 | `donchian_break` | Donchian channel breakout |
 | `vol_squeeze` | Volatility squeeze → momentum |
 
-See `docs/RESEARCH.md` for fee schedules, methodology, and caveats.
+See `RESEARCH.md` for fee schedules, methodology, and caveats.
 
 ## Not financial advice
 
